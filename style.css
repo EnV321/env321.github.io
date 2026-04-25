@@ -72,7 +72,8 @@ header.scrolled #profile-img {
 
 .name-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 header.scrolled .name-wrapper {
@@ -194,6 +195,8 @@ footer {
 
 .footer-content {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     gap: 300px;
 }
